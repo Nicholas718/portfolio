@@ -1,0 +1,19 @@
+#header {
+  background-color: rgb(4, 60, 245);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+h2 {
+  color: chocolate;
+}
+
+#about-me > p {
+}
+
+.profile-pic + p {
+}
