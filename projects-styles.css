@@ -1,0 +1,26 @@
+* {
+  color: white;
+}
+
+h2 {
+  text-shadow: 2px 2px 2px rgb(255, 87, 87), 3px 3px 2px rgb(255, 61, 61);
+  font-size: 60px;
+  color: white;
+}
+
+tr {
+  padding: 25px;
+  text-align: center;
+  background-color: rgb(185, 110, 255);
+  font-size: 25px;
+  width: 80%;
+}
+
+tr:hover {
+  background-color: rgb(255, 102, 209);
+}
+
+th {
+  background-color: rgb(58, 37, 37);
+  font-size: 30px;
+}

@@ -1,0 +1,60 @@
+* {
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  background-color: rgb(4, 60, 245);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+html {
+  background-color: black;
+  /*background-image: url(images/css-background.jpg);*/
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.css-button-3d--sky {
+  min-width: 130px;
+  height: 40px;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #3a86ff;
+  box-shadow: 0 5px #4433ff;
+  text-align: center;
+}
+.css-button-3d--sky:hover {
+  box-shadow: 0 3px #4433ff;
+  top: 1px;
+}
+.css-button-3d--sky:active {
+  box-shadow: 0 0 #4433ff;
+  top: 5px;
+}
+
+footer {
+  position: flex;
+  position: center;
+  bottom: 0;
+  color: white;
+}

@@ -1,0 +1,38 @@
+p {
+  background-color: rgb(140, 0, 255);
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  align-content: center;
+  padding: 3px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #4d4d4d;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  width: 100%;
+  font-size: 18px;
+}
+
+h2 {
+  text-shadow: 2px 2px 2px rgb(87, 154, 255), 3px 3px 2px rgb(61, 106, 255);
+  font-size: 60px;
+  color: white;
+}
